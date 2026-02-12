@@ -65,8 +65,8 @@ app.innerHTML=`
 else if(slide===3){
 app.innerHTML=`
 <h1>have you been sleeping with a calm heart?</h1>
-<button onclick="next()">yes</button>
-<button onclick="next()">no</button>
+<button onclick="next()">yeah</button>
+<button onclick="next()">not really</button>
 `;
 }
 
@@ -85,7 +85,7 @@ app.innerHTML=`
 else if(slide===5){
 app.innerHTML=`
 <div class="same">
-gotcha, this wasn’t a test
+gotcha! this wasn’t a test
 i just wanted to check on you :>
 </div>
 <br>
@@ -108,6 +108,7 @@ app.innerHTML=`
 <div class="same">
 i’m not here to fix anything
 i’m not here to rush anything
+
 i just hope you’re okay
 </div>
 <br>
@@ -118,9 +119,11 @@ i just hope you’re okay
 else if(slide===8){
 app.innerHTML=`
 <div class="same">
-for you, i would learn anything
+for you, 
+i would learn anything
 i didn’t even know how to code
-but i figured it out just to make this 
+but i figured it out 
+to make this 
 </div>
 <br>
 <button onclick="next()">Next</button>
@@ -131,7 +134,8 @@ else if(slide===9){
 app.innerHTML=`
 <div class="same">
 not because i expect anything
-just because i wanted to
+just because i want to make you smile
+(and that’s more than enough for me)
 </div>
 <br>
 <button onclick="next()">Next</button>
@@ -164,6 +168,18 @@ and my Robin Scherbatsky to my Ted Mosby
 `;
 }
 
+else if(slide===8){
+app.innerHTML=`
+<div class="same">
+and no pressure
+just for now
+</div>
+<br>
+<button onclick="next()">Next</button>
+`;
+}
+
+
 else if(slide===12){
 if(!reveal){
 app.innerHTML=`
@@ -173,8 +189,8 @@ app.innerHTML=`
 `;
 }else{
 app.innerHTML=`
-<div class="same">just a little warmth from me to you :3</div>
-<div class="small">(in case that wasn’t obvious)</div>
+<div class="same">this is a little warmth from me to you :3</div>
+<div class="small">(hoping your day feels a little lighter)</div>
 <br>
 <button onclick="next()">Next</button>
 `;
