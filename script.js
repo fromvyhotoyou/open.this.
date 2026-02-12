@@ -168,7 +168,7 @@ and my Robin Scherbatsky to my Ted Mosby
 `;
 }
 
-else if(slide===8){
+else if(slide===12){
 app.innerHTML=`
 <div class="same">
 and no pressure
@@ -180,7 +180,7 @@ just for now
 }
 
 
-else if(slide===12){
+else if(slide===13){
 if(!reveal){
 app.innerHTML=`
 <div class="big">don’t click this.</div>
@@ -197,7 +197,7 @@ app.innerHTML=`
 }
 }
 
-else if(slide===13){
+else if(slide===14){
 if(!chosen){
 app.innerHTML=`
 <button onclick="chosen=true; next()">act like this didn’t affect you</button>
@@ -207,7 +207,7 @@ app.innerHTML=`
 }
 }
 
-else if(slide===14){
+else if(slide===15){
 app.innerHTML=`
 <div class="same">
 that’s okay
@@ -218,9 +218,9 @@ i still meant every word ;)
 `;
 }
 
-else if(slide===15){
+else if(slide===16){
 app.innerHTML=`
-<div class="big">Happy Valentine’s Day &lt;3 &lt;3 &lt;3</div>
+<div class="big">Happy Valentine’s Day &lt;3 </div>
 `;
 startHeartRain();
 }
