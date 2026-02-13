@@ -196,7 +196,7 @@ app.innerHTML=`
 `;
 }else{
 app.innerHTML=`
-<div class="same">this is a little warmth from me to you :3</div>
+<div class="same">+5 emotional comfort</div>
 <div class="small">(hoping your day feels a little lighter)</div>
 <br>
 <button onclick="next()">Next</button>
@@ -228,7 +228,7 @@ i still meant every word ;)
 else if(slide===17){
 app.innerHTML=`
 <div class="big">Happy Valentine’s Day &lt;3</div>
-<div class="small">🤍</div>
+<div class="small">🌹🌹🌹</div>
 `;
 startHeartRain();
 }
