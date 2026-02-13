@@ -96,7 +96,7 @@ i just wanted to check on you :>
 else if(slide===6){
 app.innerHTML=`
 <div class="same">
-you’ve been carrying more than you say, haven’t you?
+we’re giving each other space, and i respect that
 </div>
 <br>
 <button onclick="next()">Next</button>
@@ -108,8 +108,6 @@ app.innerHTML=`
 <div class="same">
 i’m not here to fix anything
 i’m not here to rush anything
-
-i just hope you’re okay
 </div>
 <br>
 <button onclick="next()">Next</button>
@@ -117,6 +115,16 @@ i just hope you’re okay
 }
 
 else if(slide===8){
+app.innerHTML=`
+<div class="same">
+i just wanted to check in and 
+gently remind you that you’re not alone (ever)
+</div>
+<br>
+<button onclick="next()">Next</button>
+`;
+}
+else if(slide===9){
 app.innerHTML=`
 <div class="same">
 for you, 
@@ -130,45 +138,19 @@ to make this
 `;
 }
 
-else if(slide===9){
+else if(slide===10){
 app.innerHTML=`
 <div class="same">
 not because i expect anything
 just because i want to make you smile
-(and that’s more than enough for me)
+(and that’s more than enough for me ^^)
 </div>
-<br>
-<button onclick="next()">Next</button>
-`;
-}
-
-else if(slide===10){
-app.innerHTML=`
-<div class="same">
-because,
-you’re my Meredith Grey to my Derek Shepherd
-</div>
-<img src="meredith.jpg">
 <br>
 <button onclick="next()">Next</button>
 `;
 }
 
 else if(slide===11){
-app.innerHTML=`
-<div class="same">
-and my Robin Scherbatsky to my Ted Mosby
-</div>
-<div class="quote">
-"If you are looking for a word that means caring about someone beyond all rationality and wanting them to have everything they want no matter how much it destroys you: it's love!"
-</div>
-<img src="robin.jpg">
-<br>
-<button onclick="next()">Next</button>
-`;
-}
-
-else if(slide===12){
 app.innerHTML=`
 <div class="same">
 and no pressure
@@ -180,7 +162,7 @@ just for now
 }
 
 
-else if(slide===13){
+else if(slide===12){
 if(!reveal){
 app.innerHTML=`
 <div class="big">don’t click this.</div>
@@ -197,7 +179,7 @@ app.innerHTML=`
 }
 }
 
-else if(slide===14){
+else if(slide===13){
 if(!chosen){
 app.innerHTML=`
 <button onclick="chosen=true; next()">act like this didn’t affect you</button>
@@ -207,7 +189,7 @@ app.innerHTML=`
 }
 }
 
-else if(slide===15){
+else if(slide===14){
 app.innerHTML=`
 <div class="same">
 that’s okay
@@ -218,7 +200,7 @@ i still meant every word ;)
 `;
 }
 
-else if(slide===16){
+else if(slide===15){
 app.innerHTML=`
 <div class="big">Happy Valentine’s Day &lt;3 </div>
 `;
