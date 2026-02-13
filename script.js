@@ -202,7 +202,8 @@ i still meant every word ;)
 
 else if(slide===15){
 app.innerHTML=`
-<div class="big">Happy Valentine’s Day &lt;3 </div>
+<div class="big">Happy Valentine’s Day &lt;3</div>
+<div class="small">🤍</div>
 `;
 startHeartRain();
 }
