@@ -153,7 +153,7 @@ else if(slide===11){
 app.innerHTML=`
 <div class="same">
 because,
-you’re my Meredith Grey to my Derek Shepherd
+you’re Meredith Grey to my Derek Shepherd 
 </div>
 <img src="meredith.jpg">
 <br>
@@ -164,7 +164,7 @@ you’re my Meredith Grey to my Derek Shepherd
 else if(slide===12){
 app.innerHTML=`
 <div class="same">
-and my Robin Scherbatsky to my Ted Mosby
+and Robin Scherbatsky to my Ted Mosby
 </div>
 <div class="quote">
 "If you are looking for a word that means caring about someone beyond all rationality and wanting them to have everything they want no matter how much it destroys you: it's love!"
